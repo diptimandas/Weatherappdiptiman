@@ -1,0 +1,74 @@
+body{
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+font-size: 120%;
+background: url(https://images.unsplash.com/photo-1560017896-a6bf1e2acfb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYXRoZXIlMjBhcHB8ZW58MHx8MHx8&w=1000&q=80) ;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+
+}
+.card
+{
+    border-radius: 30px;
+    padding: 3em;
+    background: #000000d0;
+    
+    color: azure;
+}
+
+.temp
+{
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+.search-bar
+{
+    height: 2rem;
+    width: 15rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.abcd
+{
+  
+   
+   padding-bottom: 6px;
+   margin-left: 4px;
+}
+
+.hider
+{
+    visibility: hidden;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #8c9092;
+
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+ 
+  
